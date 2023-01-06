@@ -1,0 +1,128 @@
+.clientes-detalhes-dados {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 85%;
+
+    padding: 2rem 3rem;
+
+    border-radius: 3rem;
+
+    background-color: white;
+}
+
+.clientes-detalhes-dados .clientes-dados-editar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.clientes-detalhes-dados .clientes-dados-editar h3 {
+
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    letter-spacing: 0rem;
+
+    color: #3F3F55;
+
+}
+
+.clientes-detalhes-dados .clientes-dados-editar button {
+
+    all: unset;
+    box-sizing: border-box;
+
+    font-family: Nunito;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    border-radius: 2rem;
+
+    cursor: pointer;
+
+    background-color: #F8F8F9;
+    
+    color: #0E8750;
+    width: 25rem;
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.clientes-detalhes-dados .cliente-email-telefone-cep {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 60%;
+
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+.clientes-detalhes-dados .cliente-email-telefone-cep h4 {
+        
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+   
+    color: #3F3F55;
+}
+
+.clientes-detalhes-dados .cliente-email-telefone-cep span {
+
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+
+    color: #3F3F55;
+}
+
+.clientes-detalhes-dados .cliente-localizacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+.clientes-detalhes-dados .cliente-localizacao h4 {
+
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+   
+    color: #3F3F55;
+
+}
+
+.clientes-detalhes-dados .cliente-localizacao span {
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+
+    color: #3F3F55;
+}
+
+

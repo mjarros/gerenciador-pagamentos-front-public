@@ -1,0 +1,184 @@
+.modal-detalhes-cobranca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    background-color: #919A964D;
+
+    height: 100%;
+    width: 100%;
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 59vh;
+    width: 38vw;
+    background-color: white;
+
+    border-radius: 2rem;
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .icone-fechar {
+    
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .icone-fechar img{
+    cursor: pointer;
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .modal-detalhes-cobranca-cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 90%;
+
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .modal-detalhes-cobranca-cabecalho  span{
+    
+    font-family: Montserrat;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    letter-spacing: 0rem;
+
+    color: #3F3F55; 
+
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .modal-detalhes-cobranca-nome-e-descricao{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 90%;
+
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .titulo{
+
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+
+    color: #3F3F55
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .informacao{
+
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+
+    color: #3F3F55
+}
+
+.modal-detalhes-cobranca-nome-e-descricao textarea {
+
+    all: unset;
+    width: 90%;
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .modal-detalhes-cobranca-vencimento-e-valor{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start;
+
+    width: 90%;
+
+    margin-top: 0.5rem;
+        
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .modal-detalhes-cobranca-vencimento-e-valor div{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 0.5rem;
+
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .modal-detalhes-cobranca-idcobrancas-e-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start;
+
+    width: 90%;
+
+    margin-top: 0.5rem;
+
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .modal-detalhes-cobranca-idcobrancas-e-status div{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 0.5rem;
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .adimplente{
+
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+
+    
+    
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .pendente{
+
+    color: #C5A605;
+    background-color: #FCF6DC;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+    
+}
+
+.modal-detalhes-cobranca .container-detalhes-cobranca .inadimplente{
+
+    color: #971D1D;
+    background-color: #FFEFEF;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+    
+}

@@ -1,0 +1,25 @@
+.main-container-geral-clientes {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  position: relative;
+
+  background-color: #f0f0f5;
+}
+
+header .titulo-clientes {
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0rem;
+
+  padding-top: 4rem;
+
+  color: #0e8750;
+}

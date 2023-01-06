@@ -1,0 +1,253 @@
+.clientes-cobrancas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 85%;
+
+    padding: 2rem 3rem;
+
+    border-radius: 3rem;
+
+    background-color: white;
+
+    margin-top: 2rem;
+}
+
+.clientes-cobrancas .cobrancas-adicionar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.clientes-cobrancas .cobrancas-adicionar h3 {
+
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    letter-spacing: 0rem;
+
+    color: #3F3F55;
+
+}
+
+.clientes-cobrancas .cobrancas-adicionar button {
+
+    all: unset;
+    box-sizing: border-box;
+
+    font-family: Nunito;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    border-radius: 2rem;
+
+    cursor: pointer;
+
+    background-color: #DA0175;
+    
+    color: white;
+    width: 25rem;
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.clientes-cobrancas .clintes-cobrancas-cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+    
+}
+
+.clientes-cobrancas .clintes-cobrancas-cabecalho span {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: 0.005rem;
+    color: #3F3F55;
+
+    margin-top: 1rem;
+    
+}
+
+.clientes-cobrancas .div-tabela-cobranca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    padding-left: 2rem;
+
+    gap: 8rem;
+
+    width: 100%;
+
+}
+
+.clientes-cobrancas .div-tabela-cobranca span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cobranca-dado {
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: 0.005rem;
+
+    color: #6E6E85;
+}
+
+.margin-left-4rem {
+    margin-left: 4rem;
+}
+
+.margin-left-6rem {
+    margin-left: 6rem;
+}
+
+.margin-left-7rem {
+    margin-left: 7.5rem;
+}
+
+.margin-left-8rem {
+    margin-left: 8rem;
+}
+
+.margin-left-10rem {
+    margin-left: 10rem;
+}
+
+.margin-left-13rem {
+    margin-left: 13.5rem;
+}
+
+.width-5rem {
+    width: 5rem;
+}
+
+.width-8rem {
+    width: 8rem;
+}
+
+.width-9rem {
+    width: 9rem;
+}
+
+.width-25rem {
+    width: 25rem;
+    text-overflow:clip;
+}
+
+.vencida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFEFEF;
+    color: #971D1D;
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+.emDia {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:#EEF6F6;
+    color: #1FA7AF;
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+.div-tabela-cobranca .cobranca-icones-editar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+
+    
+}
+
+.div-tabela-cobranca .cobranca-icones-editar img{
+
+    cursor: pointer;
+    
+}
+
+.div-tabela-cobranca .adimplente{
+
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+
+    margin-left: 0.5rem;
+    
+    
+}
+
+.div-tabela-cobranca .pendente{
+
+    color: #C5A605;
+    background-color: #FCF6DC;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+
+    margin-left: 0.5rem;
+    
+}
+
+.div-tabela-cobranca .inadimplente{
+
+    color: #971D1D;
+    background-color: #FFEFEF;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+
+    margin-left: 0.5rem;
+    
+}
+

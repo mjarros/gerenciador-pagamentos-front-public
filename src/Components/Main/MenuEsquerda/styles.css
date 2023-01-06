@@ -1,0 +1,43 @@
+.menu-esquerdo-container {
+  min-width: 10%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: #f0f0f5;
+
+  gap: 5rem;
+  padding-top: 2rem;
+}
+
+.menu-esquerdo-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  height: 10vh;
+
+  width: 100%;
+}
+
+.menu-esquerdo-container .menu-individual span {
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  letter-spacing: 0rem;
+  text-align: left;
+}
+
+.selecionado-div-rosa {
+  border-right: 0.15rem solid #da0175;
+}
+
+.selecionado-span-rosa {
+  color: #da0175;
+}

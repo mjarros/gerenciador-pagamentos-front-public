@@ -1,0 +1,253 @@
+.cadastro-container-geral {
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: center;
+
+    min-width: 100%;
+    height: 100vh;
+}
+
+.stepper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 30%;
+    height: 100%;
+
+    background-color: #F0F0F5;
+}
+
+.cadastro-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F8F8F9;
+    min-width: 70%;
+    height: 100%;
+}
+
+.dados-login-cadastro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.dados-login-cadastro-container h2{
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+    text-align: center;
+    
+}
+
+.dados-login-cadastro-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3.2rem;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+}
+
+.dados-login-cadastro-container form label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.0rem;
+    letter-spacing: 0rem;
+    text-align: left;
+
+}
+
+.dados-login-cadastro-container form label input{
+
+    all: unset;
+
+    box-sizing: border-box;
+
+    background-color: white;
+    border: 1px solid #D0D5DD;
+    color: #667085;
+
+    height: 4.4rem;
+    width: 36.8rem;
+    border-radius: 0.8rem;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+
+
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+    text-align: left;
+}
+
+.dados-login-cadastro-container form button {
+
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DA0175;
+    color: white;
+    height: 3.3rem;
+    width: 16rem;
+    border-radius: 1rem;
+    padding: 0.4rem 4rem 0.4rem, 4rem;
+
+    margin-top: 4.6rem;
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.dados-login-cadastro-container span {
+    font-family: Nunito;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.3rem;
+    letter-spacing: 0em;
+
+}
+
+.dados-login-cadastro-container span strong{
+
+    color: #DA0175;
+    cursor: pointer;
+
+}
+
+.cadastro-realizado {
+    background-color: #F0F0F5;
+    height: 45rem;
+    width: 55rem;
+    border-radius: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2.4rem;
+
+}
+
+.cadastro-realizado span{
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+
+}
+
+.ir-login {
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DA0175;
+    color: white;
+    height: 3.3rem;
+    width: 16rem;
+    border-radius: 1rem;
+    padding: 0.4rem 4rem 0.4rem, 4rem;
+
+    margin-top: 4.6rem;
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.dados-login-cadastro-container .mensagem-erro-email {
+
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+
+    color: #E70000;
+
+    top:7.5rem;
+    left:1rem;
+
+}
+
+.dados-login-cadastro-container .erro-login-nome-email {
+
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+
+    color: #E70000;
+
+    top:8.5rem;
+    left:3rem;
+}
+
+.dados-login-cadastro-container .erro-login-senha {
+
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+
+    color: #E70000;
+
+    top:7.5rem;
+    left:3rem;
+}
+
+.dados-login-cadastro-container .mensagem-erro-senha-diferente {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+
+    color: #E70000;
+
+    top:8rem;
+    left:8rem;
+}
+
+

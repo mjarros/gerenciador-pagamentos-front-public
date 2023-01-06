@@ -1,0 +1,253 @@
+.modal-cadastro-cliente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    background-color: #919A964D;
+
+    height: 100%;
+    width: 100%;
+}
+
+.container-cadastro-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    width: 50rem;
+    height: 65rem;
+
+    border-radius: 3rem;
+}
+
+.container-cadastro-cliente .container-cadastro-cliente-cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+
+}
+
+.container-cadastro-cliente .container-cadastro-cliente-cabecalho div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container-cadastro-cliente div span{
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+
+    color: #343447;
+
+    margin-bottom: 0.5rem;
+
+}
+
+.container-cadastro-cliente div .fechar-modal{
+    cursor: pointer;
+    align-self: flex-end;    
+}
+
+.container-cadastro-cliente form{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+
+    gap: 0.5rem;
+
+    
+}
+
+.margin-botton {
+    margin-bottom: 1rem;
+}
+
+.container-cadastro-cliente form label{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    text-align: left;
+
+    color: #344054;
+
+    width: 100%;
+
+    position: relative;
+}
+
+.container-cadastro-cliente form label .margin-botton {
+    margin-bottom: 1.5rem;
+}
+
+.editar-cliente-campo-obrigatorio {
+    position: absolute;
+    top: 6.7rem;
+
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+
+    color: #E70000;
+
+}
+
+.container-cpf-rg .editar-cliente-campo-obrigatorio {
+    position: absolute;
+    top: 6.7rem;
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0rem;
+    overflow:auto;
+
+    color: #E70000;
+
+}
+
+.container-cadastro-cliente form label input{
+    all: unset;
+    box-sizing: border-box;
+
+    box-shadow: 0rem 0.1rem 0.2rem 0rem #1018280D;
+    border: 0.1rem solid #D0D5DD;
+    border-radius: 0.8rem;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+    width: 100%;
+
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    
+
+    color:#667085;
+
+    
+}
+
+.container-cadastro-cliente form .editar-cliente-container-btns{
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    
+}
+
+.container-cadastro-cliente form .editar-cliente-container-btns button {
+
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Nunito;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0px;
+    
+    height: 4rem;
+    width: 18.5rem;
+    border-radius: 1rem;
+
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.container-cadastro-cliente form .editar-cliente-container-btns .confirmar-cadastro {
+    background-color: #DA0175;
+    color: white;
+}
+
+.container-cadastro-cliente form .editar-cliente-container-btns .cancelar-cadastro {
+    background-color: #DEDEE9;
+    color:  #0E8750;
+}
+
+
+
+.container-cadastro-cliente .container-cpf-rg {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+
+    gap:3rem;
+}
+
+.container-editar-usuario-concluido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    width: 45rem;
+    height: 45rem;
+
+    border-radius: 3rem;
+}
+
+.editar-usuario-cadastro-concluido {
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+    text-align: center;
+
+    margin-top: 4rem;
+
+}
+
+.imagem-olho-fechado {
+    position: absolute;
+    width: 3rem;
+    top: 2.75rem;
+    left: 32rem;
+    cursor: pointer;
+}
+

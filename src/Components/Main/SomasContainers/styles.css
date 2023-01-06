@@ -1,0 +1,70 @@
+.somas-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 85%;
+
+    gap: 5rem;
+
+    margin-top: 2rem;
+   
+}
+
+.somas-container div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    height: 6.5rem;
+    width: 30rem;
+
+    border-radius: 2rem;
+
+    padding-left: 2.5rem;
+ 
+}
+
+.somas-container div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+}
+
+.somas-container div div span:first-child{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    letter-spacing: 0rem;
+    color: #3F3F55;
+
+}
+
+.somas-container div div span:last-child{
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+    color: #3F3F55;
+
+}
+
+
+.background-azul {
+    background-color: #EEF7F7
+}
+
+.background-rosa {
+    background-color: #FFEFEF
+}
+
+.background-laranja {
+    background-color: #FCF6DC
+}

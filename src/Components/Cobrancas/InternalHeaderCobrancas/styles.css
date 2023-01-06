@@ -1,0 +1,102 @@
+.cobrancas-cabecalho-interno {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 85%;
+
+    padding: 2rem 0;
+}
+
+.cobrancas-cabecalho-interno .div-esquerda {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 10rem;
+
+    gap: 1rem;
+
+
+}
+
+.cobrancas-cabecalho-interno .div-esquerda span{
+
+    font-family: Montserrat;
+    font-size: 2.6rem;    
+    font-weight: 600;
+    line-height: 3.4rem;
+    letter-spacing: 0rem;
+
+}
+
+.cobrancas-cabecalho-interno .div-direita {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 50rem;
+
+    gap: 1rem;
+    
+}
+
+.cobrancas-cabecalho-interno .div-direita button {
+
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Nunito;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 0rem;
+
+
+    height: 3.5rem;
+    width: 25rem;
+    border-radius: 1rem;
+    
+    color: #F8F8F9;
+    background-color: #DA0175;
+
+    cursor: pointer;
+    
+}
+
+.cobrancas-cabecalho-interno .div-direita input {
+    all: unset;
+    box-sizing: border-box;
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+
+    height: 3.8rem;
+    width: 31.8rem;
+    border-radius: 1rem;
+    padding: 0.7rem 0.8rem 0.7rem 0.8rem;
+
+    background-color: white;
+    color: #747488;
+
+    border-radius: 1rem;
+}
+
+.cobrancas-cabecalho-interno .imagem-lupa-pesquisa {
+
+    position: absolute;
+    right: 1rem;
+}
+

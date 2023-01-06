@@ -1,0 +1,269 @@
+.cobrancas-display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 85%;
+
+    background-color: white;
+    border-radius: 2rem;
+    height: 65vh;
+
+    position: relative;
+}
+
+.cobrancas-display-container .cobrancas-display-cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 95%;
+
+    gap: 6rem;
+
+}
+
+.cobrancas-display-container .cobrancas-display-cabecalho span {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 5rem;
+
+    color: #3F3F55;
+
+    
+}
+
+.cobrancas-display-container .div-tabela-cobrancas {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    padding-right: 5rem;
+
+    padding-top: 0.3rem;
+
+    border-top: 0.1rem solid #EFF0F6;
+
+    padding-left: 1rem;
+
+    white-space: nowrap;
+    text-overflow: hidden;
+    
+
+}
+
+.cobrancas-display-container .div-tabela-cobrancas span {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    height: 2rem;
+}
+
+.width-5rem {
+    width: 5rem;
+}
+
+.width-7rem {
+    width: 7rem;
+}
+
+.width-10rem {
+    width: 10rem;
+}
+
+
+.width-15rem {
+    width: 15rem;
+}
+
+.margin-right-1rem {
+    margin-right: 1rem;
+}
+
+.margin-right-2rem {
+    margin-right: 2rem;
+}
+
+.margin-right-3rem {
+    margin-right: 3rem;
+}
+
+.cobrancas-display-container .div-tabela-cobrancas div {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.cobrancas-display-container .div-tabela-cobrancas div img{
+
+    cursor: pointer;
+
+}
+
+.cobrancas-display-container .div-tabela-cobrancas .dados{
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+
+    color: #747488;
+
+}
+
+.cobrancas-display-container .modal-erro-busca-cobrancas {
+
+    position: relative;
+
+       
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+    width: 75vw;
+    height: 80vh;
+
+    background-color: white;
+
+}
+
+.cobrancas-display-container .modal-erro-busca-cobrancas .img-cliente {
+
+    position: absolute;
+    right: 35rem;
+    top: 8rem;
+    width: 10rem;
+    z-index: 1;
+}
+
+.cobrancas-display-container .modal-erro-busca-cobrancas .img-lupa {
+
+    align-self: center;
+    width: 35rem;
+}
+
+.cobrancas-display-container .modal-erro-busca-cobrancas .nenhum-resultado {
+
+    font-family: Montserrat;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    letter-spacing: 0rem;
+
+    color: #F08889;
+
+    width: 50rem;
+}
+
+.cobrancas-display-container .modal-erro-busca-cobrancas .verifique-escrita {
+
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    letter-spacing: 0rem;
+    
+
+    color:#9B9BB2;
+
+    width: 40rem;
+}
+
+.div-tabela-cobrancas .margin-right-2rem {
+
+    margin-right: 2rem;
+
+}
+
+.div-tabela-cobrancas .margin-right-3rem {
+
+    margin-right: 3rem;
+
+}
+
+
+.cobrancas-display-container .div-tabela-cobrancas .status{
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    letter-spacing: 0rem;
+    
+}
+
+.cobrancas-display-container .div-tabela-cobrancas .adimplente{
+
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+
+    
+    
+}
+
+.cobrancas-display-container .div-tabela-cobrancas .pendente{
+
+    color: #C5A605;
+    background-color: #FCF6DC;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+    
+}
+
+.cobrancas-display-container .div-tabela-cobrancas .inadimplente{
+
+    color: #971D1D;
+    background-color: #FFEFEF;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+    
+}
+
+.setas-paginacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4rem;
+
+    margin-top: 1.5rem;
+}
+
+.setas-paginacao img {
+    
+    width: 2rem;
+
+    cursor: pointer;
+}
+
+
+

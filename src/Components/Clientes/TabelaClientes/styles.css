@@ -1,0 +1,228 @@
+.clientes-display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 85%;
+
+    background-color: white;
+    border-radius: 2rem;
+    height: 71vh;
+}
+
+.clientes-display-container .clintes-display-cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    
+    padding: 0rem 4.75rem 0rem 5rem;
+
+}
+
+.clintes-display-cabecalho .margin-left-6rem {
+
+    margin-left: 6rem;
+
+}
+
+.clientes-display-container .clintes-display-cabecalho span {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 5rem;
+
+    color: #3F3F55;
+
+
+}
+
+.clientes-display-container .div-tabela-cliente {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+
+    padding-right: 5rem;
+
+    padding-top: 0.3rem;
+
+    border-top: 0.1rem solid #EFF0F6;
+
+}
+
+.clientes-display-container .div-tabela-cliente span {
+
+    word-wrap: break-word;
+
+    width: 11rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.clientes-display-container .div-tabela-cliente .alinhar-esquerda {
+
+    justify-content: flex-start;
+
+}
+
+.clientes-display-container .div-tabela-cliente img{
+
+    cursor: pointer;
+
+}
+
+.clientes-display-container .div-tabela-cliente .dados{
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+
+    color: #747488;
+
+}
+
+.div-tabela-cliente .margin-right-2rem {
+
+    margin-right: 2rem;
+
+}
+
+.div-tabela-cliente .margin-right-3rem {
+
+    margin-right: 3rem;
+
+}
+
+
+.clientes-display-container .div-tabela-cliente .status{
+
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    letter-spacing: 0rem;
+    
+}
+
+.clientes-display-container .div-tabela-cliente .adimplente{
+
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+
+    
+    
+}
+
+.clientes-display-container .div-tabela-cliente .inadimplente{
+
+    color: #971D1D;
+    background-color: #FFEFEF;
+    padding: 0.3rem 0.75rem;
+    border-radius: 1rem;
+    
+}
+
+.clientes-display-container .modal-erro-busca-clientes {
+
+    position: relative;
+
+       
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+    width: 75vw;
+    height: 80vh;
+
+    background-color: white;
+
+}
+
+.clientes-display-container .modal-erro-busca-clientes .img-cliente {
+
+    position: absolute;
+    right: 35rem;
+    top: 8rem;
+    width: 10rem;
+    z-index: 1;
+}
+
+.clientes-display-container .modal-erro-busca-clientes .img-lupa {
+
+    align-self: center;
+    width: 35rem;
+}
+
+.clientes-display-container .modal-erro-busca-clientes .nenhum-resultado {
+
+    font-family: Montserrat;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    letter-spacing: 0rem;
+
+    color: #F08889;
+
+    width: 50rem;
+}
+
+.clientes-display-container .modal-erro-busca-clientes .verifique-escrita {
+
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    letter-spacing: 0rem;
+    
+
+    color:#9B9BB2;
+
+    width: 40rem;
+}
+
+.setas-paginacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4rem;
+
+    margin-top: 1.5rem;
+}
+
+.setas-paginacao img {
+    
+    width: 2rem;
+
+    cursor: pointer;
+}
+
+
+

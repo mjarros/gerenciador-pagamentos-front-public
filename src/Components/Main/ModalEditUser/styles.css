@@ -1,0 +1,222 @@
+.modal-editar-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    background-color: #919A964D;
+
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    z-index: 1;
+}
+
+.container-editar-usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    width: 45rem;
+    height: 60rem;
+
+    border-radius: 3rem;
+}
+
+.container-editar-usuario .container-editar-usuario-cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-editar-usuario .container-editar-usuario-cabecalho img{
+
+    padding-bottom: 1rem;
+}
+
+.container-editar-usuario .container-editar-usuario-cabecalho span {
+
+    margin-left: 6rem;
+}
+
+.container-editar-usuario div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+
+}
+
+.container-editar-usuario div span{
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+
+    color: #343447;
+
+    margin-bottom: 1rem;
+
+}
+
+.container-editar-usuario div img{
+    cursor: pointer;
+    align-self: flex-end;
+    
+}
+
+.container-editar-usuario form{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+
+    gap: 2rem;
+
+    
+}
+
+.container-editar-usuario form label{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  
+    font-family: Nunito;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    text-align: left;
+
+    color: #344054;
+
+    width: 100%;
+
+    position: relative;
+}
+
+.container-editar-usuario .editar-usuario-campo-obrigatorio {
+    position: absolute;
+    top: 6.7rem;
+
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+
+    color: #E70000;
+
+    width: 30rem;
+
+}
+
+.container-editar-usuario form label input{
+    all: unset;
+    box-sizing: border-box;
+
+    box-shadow: 0rem 0.1rem 0.2rem 0rem #1018280D;
+    border: 0.1rem solid #D0D5DD;
+    border-radius: 0.8rem;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+    width: 100%;
+
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    
+
+    color:#667085;
+
+    
+}
+
+.container-editar-usuario form button{
+
+    all:unset;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 1rem;
+
+    padding: 0.8rem 4rem 0.8rem 4rem;
+
+    background-color: #DA0175;
+    color: white;
+
+    margin-top: 0.5rem;
+
+    cursor: pointer;
+
+}
+
+.container-editar-usuario .container-cpf-rg {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+
+    gap:3rem;
+}
+
+.container-editar-usuario-concluido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    width: 45rem;
+    height: 45rem;
+
+    border-radius: 3rem;
+}
+
+.editar-usuario-cadastro-concluido {
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+    text-align: center;
+
+    margin-top: 4rem;
+
+}
+
+.imagem-olho-fechado {
+    position: absolute;
+    width: 3rem;
+    top: 2.75rem;
+    left: 32rem;
+    cursor: pointer;
+}
+

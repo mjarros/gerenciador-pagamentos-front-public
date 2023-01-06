@@ -1,0 +1,88 @@
+.login-container-geral {
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: center;
+
+    min-width: 100%;
+    height: 100vh;
+}
+
+.login-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F8F8F9;
+    min-width: 70%;
+    height: 100%;
+}
+
+.login-imagem-container {
+    min-width: 30%;
+    min-height: 100vh;
+    background-image: url("../../Assets/login/imagem-login.svg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.login-imagem-container span {
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.1rem;
+    letter-spacing: 0rem;
+    text-align: center;
+
+    margin-top: 12rem;
+    width: 40rem;
+    
+    color: #034A2A;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.dados-login-cadastro-container .esqueceu-a-senha {
+    bottom: 5rem;
+    left: 22.5rem;
+
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+
+    color: #DA0175;
+
+    cursor: pointer;
+
+    text-decoration: underline;
+
+}
+
+.dados-login-cadastro-container .erro-login {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+
+    color: #E70000;
+
+    top: 8rem;
+    right: 8rem;
+}

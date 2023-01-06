@@ -1,0 +1,89 @@
+.modal-excluir-cobranca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    background-color: #919A964D;
+
+    height: 100%;
+    width: 100%;
+}
+
+.modal-excluir-cobranca .container-excluir-cobranca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 50vh;
+    width: 38vw;
+    background-color: white;
+
+    border-radius: 2rem;
+}
+
+.modal-excluir-cobranca .container-excluir-cobranca .icone-fechar {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.modal-excluir-cobranca .container-excluir-cobranca .icone-fechar img{
+    cursor: pointer;
+}
+
+.modal-excluir-cobranca .container-excluir-cobranca span{
+    
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.3rem;
+    color: #CC7800;
+}
+
+.modal-excluir-cobranca .container-confirmar-exclusao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3rem;
+
+    gap: 2rem;
+}
+
+.modal-excluir-cobranca .container-confirmar-exclusao button{
+
+    all: unset;
+    box-sizing: border-box;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Nunito;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+
+    cursor: pointer;
+
+    border-radius: 2rem;
+
+    width: 8vw;
+    height: 5vh;
+
+}
+
+.modal-excluir-cobranca .container-confirmar-exclusao .confirmar-exlusao {
+    background-color: #ACD9C5;
+    color: #034A2A;
+}
+
+.modal-excluir-cobranca .container-confirmar-exclusao .cancelar-exlusao {
+    background-color: #F2D6D0;
+    color: #AE1100;
+}

@@ -1,0 +1,36 @@
+.main-container-geral {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  position: relative;
+
+  background-color: #f0f0f5;
+}
+
+.main-container-header-dash {
+  min-height: 100vh;
+  min-width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: #f8f8f9;
+
+  padding-bottom: 5rem;
+}
+
+header .titulo-main {
+  font-family: Montserrat;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  letter-spacing: 0rem;
+  color: #343447;
+}
